@@ -43,12 +43,14 @@ venv.bak/
 
 # Data and Logs
 *.log
-*.csv
 *.dat
 *.out
 *.pid
 *.seed
 *.pid.lock
+# CSV files
+*.csv
+!output/*.csv
 
 # OS specific
 .DS_Store
@@ -60,7 +62,6 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-output/
 logs/
 temp/
 *.bak 

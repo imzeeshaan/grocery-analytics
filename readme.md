@@ -50,7 +50,7 @@ A comprehensive analytics dashboard for grocery store data analysis built with S
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/grocery-analytics.git
+git clone https://github.com/imzeeshaan/grocery-analytics.git
 cd grocery-analytics
 ```
 
@@ -67,6 +67,7 @@ pip install streamlit pandas plotly numpy
 
 ### Running the Application
 
+#### Local Development
 1. Generate sample data
 ```bash
 python grocery_data_generator.py
@@ -76,6 +77,14 @@ python grocery_data_generator.py
 ```bash
 streamlit run grocery_analysis_app.py
 ```
+
+#### Streamlit Cloud Deployment
+1. Fork this repository
+2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
+3. Create a new app
+4. Select your forked repository
+5. Set the main file path as: `grocery_analysis_app.py`
+6. Deploy!
 
 ## 📊 Data Structure
 
@@ -121,7 +130,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Project Link: [https://github.com/yourusername/grocery-analytics](https://github.com/yourusername/grocery-analytics)
+Project Link: [https://github.com/imzeeshaan/grocery-analytics](https://github.com/imzeeshaan/grocery-analytics)
 
 ## 🙏 Acknowledgments
 
